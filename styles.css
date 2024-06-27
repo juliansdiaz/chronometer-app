@@ -1,0 +1,65 @@
+/*General Styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("img/madera.jpg") no-repeat center center/cover;
+}
+
+/*Container Styles*/
+.main-container {
+  width: 80vw;
+  max-width: 600px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 3.5px solid black;
+  border-radius: 20px;
+}
+
+.btn-container {
+  padding: 20px;
+}
+
+/*Chronometer Styles*/
+#chronometer {
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  user-select: none;
+  font-family: monospace;
+}
+
+/*Button Styles*/
+.button {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#start-pause-btn.start,
+#start-pause-btn.start i {
+  background-color: #08e008;
+}
+
+#start-pause-btn.pause,
+#start-pause-btn.pause i {
+  background-color: red;
+}
+
+#restart-btn {
+  background-color: #ffdc00;
+}
